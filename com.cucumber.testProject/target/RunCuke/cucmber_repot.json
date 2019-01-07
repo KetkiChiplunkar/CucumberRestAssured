@@ -1,0 +1,96 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 629367057,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a user provides base URI and resources",
+            "match": {
+              "location": "studentRestServiceSteps.a_user_provides_base_URI_and_resources()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4182196896,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchCarPageSteps.set()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Log the header information of a rest service",
+        "description": "",
+        "id": "logging-request-and-response-information-of-rest-service;log-the-header-information-of-a-rest-service",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23157055,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user wants to get the header information",
+            "match": {
+              "location": "LogRequestResponseInfoSteps.headerInfo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 598810544,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user triggers get request to see the student\u0027s information",
+            "match": {
+              "location": "LogRequestResponseInfoSteps.the_user_wants_to_see_the_header_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42289,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the header information is visible for the user",
+            "match": {
+              "location": "LogRequestResponseInfoSteps.the_header_information_is_visible_for_the_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Logging Request and Response Information of Rest Service",
+    "description": "",
+    "id": "logging-request-and-response-information-of-rest-service",
+    "keyword": "Feature",
+    "uri": "LogRequestResponseInfo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Request_Response_Information"
+      }
+    ]
+  }
+]
