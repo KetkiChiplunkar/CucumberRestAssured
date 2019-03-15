@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 4233550090,
+  "duration": 4700772985,
   "status": "passed"
 });
 formatter.background({
@@ -37,14 +37,14 @@ formatter.match({
   "location": "CreateOrderV2.getUserToken()"
 });
 formatter.result({
-  "duration": 3956069512,
+  "duration": 5968313350,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateOrderV2.user_gives_the_URI_and_enters_the_access_token()"
 });
 formatter.result({
-  "duration": 27981441,
+  "duration": 37982445,
   "status": "passed"
 });
 formatter.scenario({
@@ -75,18 +75,18 @@ formatter.match({
   "location": "CreateOrderV2.user_triggers_the_post_reques_to_create_order()"
 });
 formatter.result({
-  "duration": 2111770578,
+  "duration": 3061171243,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateOrderV2.user_is_successfully_able_to_create_order()"
 });
 formatter.result({
-  "duration": 104134368,
+  "duration": 109511130,
   "status": "passed"
 });
 formatter.before({
-  "duration": 740815,
+  "duration": 1110467,
   "status": "passed"
 });
 formatter.background({
@@ -110,14 +110,14 @@ formatter.match({
   "location": "CreateOrderV2.getUserToken()"
 });
 formatter.result({
-  "duration": 1880936810,
+  "duration": 1683673446,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateOrderV2.user_gives_the_URI_and_enters_the_access_token()"
 });
 formatter.result({
-  "duration": 954149,
+  "duration": 799718,
   "status": "passed"
 });
 formatter.scenario({
@@ -148,18 +148,18 @@ formatter.match({
   "location": "CreateOrderV2.user_triggers_the_Get_requests_to_get_order()"
 });
 formatter.result({
-  "duration": 1945267656,
+  "duration": 1713069686,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateOrderV2.user_is_successfully_get_the_order_details()"
 });
 formatter.result({
-  "duration": 6196114,
+  "duration": 7662642,
   "status": "passed"
 });
 formatter.before({
-  "duration": 579965,
+  "duration": 537677,
   "status": "passed"
 });
 formatter.background({
@@ -183,14 +183,14 @@ formatter.match({
   "location": "CreateOrderV2.getUserToken()"
 });
 formatter.result({
-  "duration": 1397855487,
+  "duration": 2221871491,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateOrderV2.user_gives_the_URI_and_enters_the_access_token()"
 });
 formatter.result({
-  "duration": 708343,
+  "duration": 512378,
   "status": "passed"
 });
 formatter.scenario({
@@ -221,14 +221,14 @@ formatter.match({
   "location": "CreateOrderV2.user_triggers_the_Patch_request_to_update_the_order()"
 });
 formatter.result({
-  "duration": 1641977108,
+  "duration": 1886777998,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateOrderV2.user_is_successfully_able_to_patch_order()"
 });
 formatter.result({
-  "duration": 294514,
+  "duration": 594314,
   "status": "passed"
 });
 formatter.uri("PaypalRest.feature");
@@ -246,7 +246,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 1020225,
+  "duration": 1179943,
   "status": "passed"
 });
 formatter.scenario({
@@ -287,7 +287,7 @@ formatter.match({
   "location": "PaypalRestSteps.user_provide_rest_uri()"
 });
 formatter.result({
-  "duration": 290360,
+  "duration": 335670,
   "status": "passed"
 });
 formatter.match({
@@ -304,25 +304,25 @@ formatter.match({
   "location": "PaypalRestSteps.the_user_enter_key_as_and_value_as(String,String)"
 });
 formatter.result({
-  "duration": 61748943,
+  "duration": 48671404,
   "status": "passed"
 });
 formatter.match({
   "location": "PaypalRestSteps.user_sends_the_Post_request()"
 });
 formatter.result({
-  "duration": 1885237843,
+  "duration": 1874974419,
   "status": "passed"
 });
 formatter.match({
   "location": "PaypalRestSteps.the_user_gets_the_access_token_in_the_response()"
 });
 formatter.result({
-  "duration": 8594135,
+  "duration": 12837020,
   "status": "passed"
 });
 formatter.before({
-  "duration": 487080,
+  "duration": 1036462,
   "status": "passed"
 });
 formatter.scenario({
@@ -363,7 +363,7 @@ formatter.match({
   "location": "PaypalRestSteps.user_provides_rest_uri_for_create_payment()"
 });
 formatter.result({
-  "duration": 69852,
+  "duration": 132154,
   "status": "passed"
 });
 formatter.match({
@@ -384,25 +384,25 @@ formatter.match({
   "location": "PaypalRestSteps.user_provides_the_as_and_its(String,String,String)"
 });
 formatter.result({
-  "duration": 1801820,
+  "duration": 2648357,
   "status": "passed"
 });
 formatter.match({
   "location": "PaypalRestSteps.the_user_provides_the_message_body_for_create_payment()"
 });
 formatter.result({
-  "duration": 2461821590,
+  "duration": 1916660940,
   "status": "passed"
 });
 formatter.match({
   "location": "PaypalRestSteps.the_user_is_successfully_able_to_create_payment()"
 });
 formatter.result({
-  "duration": 14835181,
+  "duration": 18403706,
   "status": "passed"
 });
 formatter.before({
-  "duration": 872591,
+  "duration": 1270185,
   "status": "passed"
 });
 formatter.scenario({
@@ -468,7 +468,7 @@ formatter.match({
   "location": "PaypalRestSteps.user_provides_rest_uri_for_create_payment()"
 });
 formatter.result({
-  "duration": 87222,
+  "duration": 117806,
   "status": "passed"
 });
 formatter.match({
@@ -489,7 +489,7 @@ formatter.match({
   "location": "PaypalRestSteps.user_provides_the_as_and_its(String,String,String)"
 });
 formatter.result({
-  "duration": 829547,
+  "duration": 1058739,
   "status": "passed"
 });
 formatter.match({
@@ -502,21 +502,21 @@ formatter.match({
   "location": "PaypalRestSteps.the_user_provides_the_intent_as(String)"
 });
 formatter.result({
-  "duration": 102324,
+  "duration": 99681,
   "status": "passed"
 });
 formatter.match({
   "location": "PaypalRestSteps.the_user_provides_payer_information()"
 });
 formatter.result({
-  "duration": 682290,
+  "duration": 4897989,
   "status": "passed"
 });
 formatter.match({
   "location": "PaypalRestSteps.the_user_provides_transactions_information()"
 });
 formatter.result({
-  "duration": 4181716,
+  "duration": 12150577,
   "status": "passed"
 });
 formatter.match({
@@ -529,7 +529,7 @@ formatter.match({
   "location": "PaypalRestSteps.the_user_provides_note_to_payer_as(String)"
 });
 formatter.result({
-  "duration": 94018,
+  "duration": 49463,
   "status": "passed"
 });
 formatter.match({
@@ -546,25 +546,25 @@ formatter.match({
   "location": "PaypalRestSteps.the_user_provides_redirect_urls_as_and(String,String)"
 });
 formatter.result({
-  "duration": 110631,
+  "duration": 49086,
   "status": "passed"
 });
 formatter.match({
   "location": "PaypalRestSteps.triggerRequest()"
 });
 formatter.result({
-  "duration": 3039073657,
+  "duration": 2626141335,
   "status": "passed"
 });
 formatter.match({
   "location": "PaypalRestSteps.the_user_is_successfully_able_to_create_payment()"
 });
 formatter.result({
-  "duration": 11233054,
+  "duration": 17496755,
   "status": "passed"
 });
 formatter.before({
-  "duration": 471222,
+  "duration": 1067045,
   "status": "passed"
 });
 formatter.scenario({
@@ -605,7 +605,7 @@ formatter.match({
   "location": "PaypalRestSteps.user_provides_rest_uri_for_create_payment()"
 });
 formatter.result({
-  "duration": 62679,
+  "duration": 107611,
   "status": "passed"
 });
 formatter.match({
@@ -626,21 +626,21 @@ formatter.match({
   "location": "PaypalRestSteps.user_provides_the_as_and_its(String,String,String)"
 });
 formatter.result({
-  "duration": 1027023,
+  "duration": 1572627,
   "status": "passed"
 });
 formatter.match({
   "location": "PaypalRestSteps.the_user_provides_Payment_id()"
 });
 formatter.result({
-  "duration": 1453337331,
+  "duration": 2127436817,
   "status": "passed"
 });
 formatter.match({
   "location": "PaypalRestSteps.the_user_gets_the_Payment_information()"
 });
 formatter.result({
-  "duration": 4620466,
+  "duration": 3649327,
   "status": "passed"
 });
 });
