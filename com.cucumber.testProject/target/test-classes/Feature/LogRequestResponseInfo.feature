@@ -3,8 +3,8 @@ Feature: Logging Request and Response Information of Rest Service
 
   Background: 
     Given a user provides base URI and resources
-
-Scenario: Log the header information of a rest service
+    
+  Scenario: Log the header information of a rest service
     Given the user wants to get the header information
     When the user triggers get request to see the student's information
     Then the user gets the requested information
@@ -33,4 +33,8 @@ Scenario: Log the header information of a rest service
     When user triggers the post request
     Then user is able to create student
     And user gets the status code as "201"
-    
+
+ Scenario: Get the student information witht the given parameters
+    Given the user wants to get the header information
+    And the user wants to get the student with "programme" as "Medicine"
+    When the user triggers get request

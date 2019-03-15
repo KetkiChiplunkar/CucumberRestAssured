@@ -29,9 +29,17 @@ public class LogRequestResponseInfoSteps {
 	@Given("^the user wants to get the student with \"([^\"]*)\" as \"([^\"]*)\"$")
 	public void the_user_wants_to_get_the_student_with_as(String arg1,
 			String arg2) throws Throwable {
-		request = given().param(arg1, arg2);
+		request = given().param(arg1, arg2).param("limit", 1);
 	}
 
+	@Given("^the user want to get only \"([^\"]*)\" student with the given programme$")
+	public void listStudent(String arg1) throws Throwable {
+	//	request = given().param("limit",Integer.valueOf(arg1));
+		
+	}
+	
+	
+	
 	@When("^the user triggers get request$")
 	public void getInfo() throws Throwable {
 		response = request.when().get("/list");
@@ -46,6 +54,9 @@ public class LogRequestResponseInfoSteps {
 	public void the_header_information_is_visible_for_the_user()
 			throws Throwable {
 		System.out.println("response: " + response.prettyPrint());
+		int statusCode = response.getStatusCode();
+		System.out.println("Status Code is "+statusCode);
+		System.out.println("Response is as "+response.getBody().asString());
 	}
 
 }

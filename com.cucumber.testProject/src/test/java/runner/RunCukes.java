@@ -9,7 +9,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
         features = "src\\test\\resources\\Feature",
         		
         glue="stepDefinition",
-       tags={"@Request_Response_Information"}
+       tags={"@Paypal_RestAssured,@Paypal_CreateOrder"}
         )
 
 public class RunCukes extends AbstractTestNGCucumberTests {
